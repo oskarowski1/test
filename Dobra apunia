@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char a;
+    int b;
+    long c;
+    double d;
+    bool e;
+    long double f;
+    cout <<"char "<< sizeof(a)<<endl;
+    cout <<"int "<< sizeof(b)<<endl;
+    cout <<"long "<< sizeof(c)<<endl;
+    cout <<"double "<< sizeof(d)<<endl;
+    cout <<"bool "<< sizeof(e)<<endl;
+    cout<< "long double "<<sizeof(f)<<endl;
+
+    return 0;
+}
